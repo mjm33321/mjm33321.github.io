@@ -166,7 +166,7 @@ a:focus {
   display: block;
   margin: auto;
   background-color: #333333;
-  width: 60%;
+  width: 70%;
   border-radius: 8px;
 }
 .profile-pic {
@@ -301,7 +301,7 @@ ul.banner-social-buttons {
 }
 @media (max-width: 767px) {
   ul.banner-social-buttons li {
-    display: block;
+    display:inline-block;
     margin-bottom: 20px;
     padding: 0;
   }
@@ -334,3 +334,4 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+
